@@ -23,6 +23,7 @@ Day1 starts with introduction to System on Chip (SoC) basics like chip, PADs, co
 
 
 ### For open-source implementation of Digital ASIC Design, we need 3 components:
+![Day 1 - ASIC components](https://user-images.githubusercontent.com/73480418/97202970-ac629680-178a-11eb-8aaf-d637127beb3c.PNG)
 
 
 RTL IP’s: these are easily available on open-source platforms like librecores.org, opencores.org, github.com etc.,
