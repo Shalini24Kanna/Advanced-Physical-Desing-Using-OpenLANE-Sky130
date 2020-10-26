@@ -50,9 +50,13 @@ PDK DATA: Open-source PDK released by Google + Skywater technology.
             This step is used to route the clock before the signal are routed. By creating a clock distribution network to deliver the clock to all sequential elements, with minimal skew and in a good shape. The clock network is usually in a shape of tree.
    - **Routing**
             After clock routing now it comes to signal routing. In Routing, valid horizontal and vertical pattern of wires are found to implement net connecting cells together using available metal layers. Routing is performed in 2 steps: Global routing – generates routing guides and detailed routing – uses the routing guides to implement the actual wiring.
-    - **SignOff**
-            In sign-off stage Physical verification is done using Design Rule Checking (DRC) & Layout Vs Schematic (LVS) and Timing verification is done using Static Timing Analysis (STA).
 
+
+
+- **SignOff**
+            In sign-off stage Physical verification is done using Design Rule Checking (DRC) & Layout Vs Schematic (LVS) and Timing verification is done using Static Timing Analysis (STA).
+            
+            
 ![Day 1 - Detailed ASIC design flow](https://user-images.githubusercontent.com/73480418/97203402-23982a80-178b-11eb-8d73-e5fb659bda6a.PNG)
 
 
@@ -95,11 +99,15 @@ Steps involved to define Pre-placed cell & its advantage of enhancing reusabilit
 
 ### Cell Design:
   Cell design is don’t in 3 parts.
-        - **Inputs**
+    - **Inputs**
                   Inputs for cell design flow are PDKs (Process design kits), DRC & LVS rules, SPICE models, library & user-defined specs.
-      - **DesignSteps**
+      
+      
+  - **DesignSteps**
                   Design steps of cell design involve Circuit Design, Layout Design, Characterization. The software GUNA used for characterization. The characterization can be classified as Timing characterization, Power characterization and Noise characterization. 
-      - **Outputs**
+  
+  
+  - **Outputs**
                   Outputs of the Design are CDL (Circuit Description Language), GDSII, LEF, extracted Spice netlist (.cir), timing, noise, power.libs, function.
 
 ### Typical Characterization Flow:
