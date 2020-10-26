@@ -187,84 +187,107 @@ report_checks -path_delay min_max -digits 4
 
 Lab1: Layer information in sky130_fd_sc_hd file
 
+![Day 4 - layer information](https://user-images.githubusercontent.com/73480418/97208272-534a3100-1791-11eb-8b54-00a911ca15e5.PNG)
 
 
 Gird size modified to track size
 
+![Day 4 - Grid details](https://user-images.githubusercontent.com/73480418/97208334-60ffb680-1791-11eb-8241-cb1a9c68667f.PNG)
 
 
 Process to modify labels
 
+![Day 4 - text lable](https://user-images.githubusercontent.com/73480418/97208365-6eb53c00-1791-11eb-9ffe-0a6645911397.PNG)
 
 
 Command to convert Magic layout to .mag
 
+![Day 4 - command to convert Magic layout to LEF](https://user-images.githubusercontent.com/73480418/97208448-855b9300-1791-11eb-96ae-5bd10a83cbef.PNG)
 
 
 
 Converting Magic Layout to .mag
 
+![Day 4 - magic layout to LEF](https://user-images.githubusercontent.com/73480418/97208510-92788200-1791-11eb-836a-2a97b0f4f681.PNG)
 
 
 
 Creating LEF file from Magic layout
 
+![Day 4 - LEF file command](https://user-images.githubusercontent.com/73480418/97208538-9b695380-1791-11eb-8f6d-ced2c8ad24c3.PNG)
 
 
 LEF file created
 
+![Day 4 - LEF file created](https://user-images.githubusercontent.com/73480418/97208555-a45a2500-1791-11eb-960e-793e1cb15201.PNG)
 
 
 Layout of the sky130_vdsinv Cell
+
+![Day 4 - layout of the inverter](https://user-images.githubusercontent.com/73480418/97208644-ba67e580-1791-11eb-8f49-a0787eec9cce.PNG)
 
 
 
 Layout in expanded view
 
+![Day 4 - layout of the inverter in expanded view](https://user-images.githubusercontent.com/73480418/97208662-c2c02080-1791-11eb-9b4a-bab72a2125b7.PNG)
 
 
 Lab2: Reduction in the Slack Violation and increase in area
 
+![Day 4 - slack and area change](https://user-images.githubusercontent.com/73480418/97208713-d4092d00-1791-11eb-97c5-4bad91855bc9.PNG)
+
+
+![Day 4 - Slack vlaue least](https://user-images.githubusercontent.com/73480418/97208797-e97e5700-1791-11eb-9d13-6c99ba9abe04.PNG)
 
 
 
 Lab3: Run CTS is completed successfully
 
+![Day 4 - CTS excecution completed](https://user-images.githubusercontent.com/73480418/97208844-f69b4600-1791-11eb-9732-1a122993cce7.PNG)
 
 
 
 Lab4: CTS values
 
+![Day 4 - CTS values](https://user-images.githubusercontent.com/73480418/97208872-0024ae00-1792-11eb-86e9-83322b518e73.PNG)
 
 
 Creating db file
 
+![Day 4 - creating db file](https://user-images.githubusercontent.com/73480418/97208922-116dba80-1792-11eb-89e7-0257f4dc4e25.PNG)
 
 
 
 Db file created in OpenLANE_flow directory
 
+![Day 4 - db file created](https://user-images.githubusercontent.com/73480418/97208949-192d5f00-1792-11eb-9a93-032413635432.PNG)
 
 
 Reading SDC file
 
+![Day 4 - readind sdc file](https://user-images.githubusercontent.com/73480418/97208983-23e7f400-1792-11eb-8069-290e723a70cd.PNG)
 
 
 Slack value MET
 
+![Day 4 - Slack met](https://user-images.githubusercontent.com/73480418/97209018-2fd3b600-1792-11eb-9f5f-23feb858109f.PNG)
 
 
 
 Removed clkbuf_1
 
+![Day 4 - removed Buf1](https://user-images.githubusercontent.com/73480418/97209055-3bbf7800-1792-11eb-95ca-c243ee49925c.PNG)
 
 
 Inserted clkbuf_1 to the clock buffers
 
+![Day 4 - inserted buf1](https://user-images.githubusercontent.com/73480418/97209079-4548e000-1792-11eb-9328-0e3bedba321a.PNG)
 
 
 Change in slack due to clkbuf_2 
 
+![Day 4 - slack values change by using clkbuf 2](https://user-images.githubusercontent.com/73480418/97209102-4e39b180-1792-11eb-8950-e6e1e0b17e77.PNG)
 
 
 ## 6. Day 5: Final steps for RTL2GDS using TritonRoute and OpenSTA
