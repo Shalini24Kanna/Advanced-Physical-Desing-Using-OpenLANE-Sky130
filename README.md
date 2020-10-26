@@ -88,18 +88,22 @@ Slack calculation of design
 
 ## 3. Day 2: Good Floor planning Vs Bad Floor planning and Introduction to library cells
 On Day 2, definition of width and height of core and die were explained. Later, the concepts like Utilization factor and Aspect ratio were explained in detail and their importance to understand the design was also mentioned.
-             Utilization factor = (Area occupied by netlist) / (Total area of the core)
+
+  Utilization factor = (Area occupied by netlist) / (Total area of the core)
 
 Ideally, utilization is considered to be 50% - 60% and utilization factor to be 0.5 / 0.6.
 
    Aspect ratio = (Height (of the die)) / (Width (of the die))
+
 
 Steps involved to define Pre-placed cell & its advantage of enhancing reusability and de-coupling capacitors and how they help during switching to avoid failure was explained. Once the pre-placed cells are located on the core, they cannot be moved further so these needs to be place carefully. The pre-placed cells are surrounded by De-coupling capacitors. A fully charged de-coupling capacitor is placed parallel to circuits to ensure proper supply of peak current Ipeak by decoupling them from main supply voltage. Hence de-coupling capacitor ensures proper local communication while multiple Vdd & Vss lines lead to proper global communication (which is taken care in power planning) avoiding voltage droop and ground bounce conditions. Step of pin placement & logical cell placement blockage is explained. Logical cell placement is done to avoid PnR tool to place anything cells and to reserve the area for inputs and output pins.
 
 
 ### Cell Design:
   Cell design is don’t in 3 parts.
-    - **Inputs**
+   
+   
+   - **Inputs**
                   Inputs for cell design flow are PDKs (Process design kits), DRC & LVS rules, SPICE models, library & user-defined specs.
       
       
