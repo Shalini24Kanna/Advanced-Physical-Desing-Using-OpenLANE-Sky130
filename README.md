@@ -100,9 +100,9 @@ Steps involved to define Pre-placed cell & its advantage of enhancing reusabilit
    - Provide the necessary simulation commands.
    
 ### Important parameters of Timing Characterization:
-    - Rise Delay: Time taken for waveform to rise from 20% to 80% of VDD.
-    - Fall Delay: Time taken for waveform to fall from 80% to 20% of VDD.
-    - Propagation Delay: Measured between 50% of Input transition to 50% of Output transition.
+   - Rise Delay: Time taken for waveform to rise from 20% to 80% of VDD.
+   - Fall Delay: Time taken for waveform to fall from 80% to 20% of VDD.
+   - Propagation Delay: Measured between 50% of Input transition to 50% of Output transition.
 
 **LAB:**
 
