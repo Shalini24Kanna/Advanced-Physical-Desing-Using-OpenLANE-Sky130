@@ -23,6 +23,7 @@ Day1 starts with introduction to System on Chip (SoC) basics like chip, PADs, co
 
 
 ### For open-source implementation of Digital ASIC Design, we need 3 components:
+
 ![Day 1 - ASIC components](https://user-images.githubusercontent.com/73480418/97202970-ac629680-178a-11eb-8aaf-d637127beb3c.PNG)
 
 
@@ -32,6 +33,7 @@ PDK DATA: Open-source PDK released by Google + Skywater technology.
 
 ### Simplified RTL to GDS flow:
 
+![Day 1 - simplified RTL to GDS flow](https://user-images.githubusercontent.com/73480418/97203389-1aa75900-178b-11eb-943c-10ea44f71cec.PNG)
 
    -	**Synthesis**
             Design RTL is translated into circuits made out of components from Standard Cell Library (SCL). The resultant circuit is described in HDL and usually refers to as the gate level netlist. The gate level netlist is functionally equal to the RTL.
@@ -50,6 +52,7 @@ PDK DATA: Open-source PDK released by Google + Skywater technology.
     - **Sign-Off**
             In sign-off stage Physical verification is done using Design Rule Checking (DRC) & Layout Vs Schematic (LVS) and Timing verification is done using Static Timing Analysis (STA).
 
+![Day 1 - Detailed ASIC design flow](https://user-images.githubusercontent.com/73480418/97203402-23982a80-178b-11eb-8d73-e5fb659bda6a.PNG)
 
 
 Above picture shows the detailed ASIC design flow. Here new concepts like design exploration, Design for test (DFT), logic equivalence check (LEC), antenna diodes insertion was explained. 
@@ -59,18 +62,22 @@ Design exploration helps in finding the best configuration for the design. DFT i
 
 To run OpenLANE
 
+![Day 1 - to initate OpenLANE](https://user-images.githubusercontent.com/73480418/97203757-a5885380-178b-11eb-8f97-37d2b7763192.PNG)
 
 
 Results of synthesis showing design components
 
+![Day 1 - synthesis showing desing components](https://user-images.githubusercontent.com/73480418/97203957-df595a00-178b-11eb-9f34-c798b3e9301d.PNG)
 
 
 Synthesis showing chip area and number of D F/F’s
 
+![Day 1 - synthesis showing chip area and D FlipFlopss](https://user-images.githubusercontent.com/73480418/97203976-e54f3b00-178b-11eb-8b70-0015a8d021b8.PNG)
 
 
 Slack calculation of design
 
+![Day 1 - slack calculation of design](https://user-images.githubusercontent.com/73480418/97204035-f7c97480-178b-11eb-8343-2e6c6f93a2ae.PNG)
 
 
 ## 3. Day 2: Good Floor planning Vs Bad Floor planning and Introduction to library cells
