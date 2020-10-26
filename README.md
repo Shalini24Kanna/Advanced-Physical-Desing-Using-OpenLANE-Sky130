@@ -116,20 +116,27 @@ Steps involved to define Pre-placed cell & its advantage of enhancing reusabilit
 
 Run Floorplan is completed successfully
 
+![Day 2 - floor plan results](https://user-images.githubusercontent.com/73480418/97206826-a28f6200-178f-11eb-9015-d718946701fc.PNG)
 
 
 Setting up VMETAL and HMETAL
 
+![Day 2 - seting up VMETAL and HMETAL](https://user-images.githubusercontent.com/73480418/97205087-580ce600-178d-11eb-9da2-5ec8c61516be.PNG)
+
 
 Review floor plan layout in Magic
+
+![Day 2 - review floorplan layout in magic](https://user-images.githubusercontent.com/73480418/97205299-a7531680-178d-11eb-9937-93bc7e894bf0.PNG)
 
 
 Run placement is completed successfully
 
+![Day 2 - run placemnt is done](https://user-images.githubusercontent.com/73480418/97205346-bc2faa00-178d-11eb-892f-d54cb5c86dd6.PNG)
 
 
 Review placement layout in Magic
 
+![Day 2 - review placement layout in Magic](https://user-images.githubusercontent.com/73480418/97206959-c8b50200-178f-11eb-8056-06d8b19e8901.PNG)
 
 
 ## 4. Day 3: Design library cell using Magic layout and ngSpice characterization
@@ -150,9 +157,12 @@ On Day3, SPICE deck creation for an inverter was explained and later, 16-Mask CM
 
 Inverter Layout in Magic
 
+![Day 3 - inverter layout in Magic](https://user-images.githubusercontent.com/73480418/97207054-ebdfb180-178f-11eb-98aa-77fe474c9f5c.png)
+
 
 Transient analysis of an inverter in ngspice
 
+![Day 3 - trans1 of inverter in ngspice](https://user-images.githubusercontent.com/73480418/97207068-ef733880-178f-11eb-8602-7efbdfac332b.PNG)
 
 
 
@@ -284,14 +294,22 @@ TritonRoute performs initial detailed route and tries to route within the route 
 
 Generating PDN
 
+![Day 5 - gen pdn code](https://user-images.githubusercontent.com/73480418/97207226-247f8b00-1790-11eb-9b89-17ee2ebb148e.PNG)
+
 
 PDN generation completed successfully
+
+![Day 5 - generating PDN](https://user-images.githubusercontent.com/73480418/97207239-28aba880-1790-11eb-9fc7-3b0eedbe6b1d.PNG)
 
 
 Run routing is completed successfully
 
+![Day 5 - routing completed](https://user-images.githubusercontent.com/73480418/97207243-2ba69900-1790-11eb-810f-004caef39709.PNG)
+
 
 SPEF extraction (mine got killed)
+
+![Day 5 - SPEF extraction -mine got killed](https://user-images.githubusercontent.com/73480418/97207263-306b4d00-1790-11eb-81a5-2b985bc70ee0.PNG)
 
 
 
